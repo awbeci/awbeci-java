@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.apache.org//DTD SQL Map 2.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="com.awbeci.web.model.Dictionary">
+
+    <!-- 分页查询 -->
+    <select id="findPage" resultType="com.awbeci.web.model.Dictionary">
+            SELECT * FROM t_sys_dictionary
+    </select>
+
+</mapper>
